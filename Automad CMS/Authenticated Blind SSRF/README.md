@@ -1,6 +1,6 @@
 # Authenticated Blind SSRF
 
-It was discovered that the import function on the FileController.php file was not validated the value of the `importUrl` parameter.
+It was discovered that the import function on the `FileController.php` file was not validated the value of the `importUrl` parameter.
 
 ```jsx
 public static function import() {
