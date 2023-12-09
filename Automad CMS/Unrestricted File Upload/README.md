@@ -77,12 +77,12 @@ This issue allow pentester to upload a SVG or PDF file contains malicious conten
 
 SVF File:
 
-![Untitled](Unrestricted%20File%20Upload%208692a5efbf07432b8ff90afc40380a98/Untitled.png)
+![1](https://github.com/screetsec/VDD/assets/17976841/39bed2a9-3dcb-4268-9d61-aff36e49bb57)
 
-![Untitled](Unrestricted%20File%20Upload%208692a5efbf07432b8ff90afc40380a98/Untitled%201.png)
+![2](https://github.com/screetsec/VDD/assets/17976841/b5deb569-0303-4c5b-bb93-f184beb509c1)
 
 PDF File:
 
-![Untitled](Unrestricted%20File%20Upload%208692a5efbf07432b8ff90afc40380a98/Untitled%202.png)
+![3](https://github.com/screetsec/VDD/assets/17976841/68fbd4fc-dead-42e0-8a76-a3e9320c4202)
 
-![Untitled](Unrestricted%20File%20Upload%208692a5efbf07432b8ff90afc40380a98/Untitled%203.png)
+![4](https://github.com/screetsec/VDD/assets/17976841/0196148c-fc9f-486f-abdb-87b80d6ac8bc)
