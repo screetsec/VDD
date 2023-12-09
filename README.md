@@ -1,2 +1,3 @@
-# VDD
-Vulnerability Database and Documentation
+# VDD (Vulnerability Database and Documentation)
+
+
