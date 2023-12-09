@@ -75,14 +75,14 @@ public static function upload(array $files, string $path) {
 
 This issue allow pentester to upload a SVG or PDF file contains malicious content to **execute** arbitrary JS code which acts as a stored XSS payload.
 
-SVF File:
+**SVF File**:
 
-![1](https://github.com/screetsec/VDD/assets/17976841/39bed2a9-3dcb-4268-9d61-aff36e49bb57)
+![1](https://github.com/screetsec/VDD/assets/17976841/0b3c7f67-7f7d-41d3-96c4-42e5dc8ef898)
 
-![2](https://github.com/screetsec/VDD/assets/17976841/b5deb569-0303-4c5b-bb93-f184beb509c1)
+![2](https://github.com/screetsec/VDD/assets/17976841/d31b9141-d189-4ab2-b655-84455aa75e03)
 
-PDF File:
+**PDF File**:
 
-![3](https://github.com/screetsec/VDD/assets/17976841/68fbd4fc-dead-42e0-8a76-a3e9320c4202)
+![3](https://github.com/screetsec/VDD/assets/17976841/eeb9030e-f3a3-4eeb-bfb5-20eae302816c)
 
-![4](https://github.com/screetsec/VDD/assets/17976841/0196148c-fc9f-486f-abdb-87b80d6ac8bc)
+![4](https://github.com/screetsec/VDD/assets/17976841/97e05864-e9a0-4b61-a027-43df70eb7757)
