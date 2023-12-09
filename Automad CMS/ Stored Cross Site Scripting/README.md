@@ -90,7 +90,7 @@ class SharedController {
 
 In the **`save`** method, the application utilizes **`FileSystem::writeData($data, AM_FILE_SHARED_DATA)`** to write and save the provided data into a file named **`data.txt`** located within the `shared` folder.  
 
-![Untitled](Stored%20Cross-site%20scripting%20(XSS)%20c79ada828ac04f958036896c305dbb9f/Untitled.png)
+![1](https://github.com/screetsec/VDD/assets/17976841/26b82cc8-3045-4342-af26-7e4e1ec85751)
 
 Below is the relevant information from the **`Config.php`** file, where the file paths and extensions are defined:
 
@@ -224,17 +224,17 @@ Affected Files:
 1. Login to the application and navigate to the “General Data and Files” menu 
 2. Input the payload on the affected fields or parameter such as `<svg onload=alert("Sitename")//`
     
-    ![Untitled](Stored%20Cross-site%20scripting%20(XSS)%20c79ada828ac04f958036896c305dbb9f/Untitled%201.png)
+    ![2](https://github.com/screetsec/VDD/assets/17976841/7a1674f7-e0ed-4df6-9ff2-4324dd5c40b7)
     
 3. Default Colors Section:
     
-    ![Untitled](Stored%20Cross-site%20scripting%20(XSS)%20c79ada828ac04f958036896c305dbb9f/Untitled%202.png)
+    ![3](https://github.com/screetsec/VDD/assets/17976841/2379a56e-f633-4e19-909a-ee03849ef080)
     
 4. Save the changes. The following screenshots show the request and response from Burp Suite
 5. Observe that the homepage will be affected as a result.
     
-    ![Untitled](Stored%20Cross-site%20scripting%20(XSS)%20c79ada828ac04f958036896c305dbb9f/Untitled%203.png)
+    ![3](https://github.com/screetsec/VDD/assets/17976841/c56a7e13-2663-46ac-9661-cad5078216dd)
     
-    ![Untitled](Stored%20Cross-site%20scripting%20(XSS)%20c79ada828ac04f958036896c305dbb9f/Untitled%204.png)
+    ![4](https://github.com/screetsec/VDD/assets/17976841/b0e46aaf-daec-46a9-97ac-88ab0a56009b)
     
-    ![Untitled](Stored%20Cross-site%20scripting%20(XSS)%20c79ada828ac04f958036896c305dbb9f/Untitled%205.png)
+    ![5](https://github.com/screetsec/VDD/assets/17976841/9f593c7a-132b-4a21-92c9-b7996b47bb35)
